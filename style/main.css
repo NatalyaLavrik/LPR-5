@@ -4,15 +4,20 @@
     box-sizing: border-box;
     font-family:"PT Serif", serif;
 }
+body{
+    background-color: #b8c6cc;
+    font-size: 16px;
+}
 .container {
     background-color:  #b8c6cc;
-    width: 100%;
+    width: 80%;
     min-height: 100vh;
+    margin: 0 auto;
 }
 .container_content {    
     width: calc(100%-2*146px);
     margin: 0 auto;
-    height: auto;
+    height: 100%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -53,6 +58,7 @@ hr{
 p{
    margin-left:  50px;
    line-height: 1,5 ;
+   font-size: 1.5em;
 }
 
 img{
